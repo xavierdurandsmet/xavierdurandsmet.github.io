@@ -21,7 +21,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "./././server/index.js",
+                url: "https://lit-brushlands-56940.herokuapp.com/",
                 type: "POST",
                 data: {
                     name: name,
