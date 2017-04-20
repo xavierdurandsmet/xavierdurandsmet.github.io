@@ -21,7 +21,8 @@
 }
 
 #profile-pic {
-	margin-left: 33%
+	display: block;
+  margin: auto;
 }
 
 /*
